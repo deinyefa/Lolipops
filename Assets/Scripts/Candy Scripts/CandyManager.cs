@@ -8,7 +8,8 @@ public class CandyManager : MonoBehaviour {
 
 	public Text scoreText;
 
-	private int score;
+	[HideInInspector]
+	public int score;
 
 	public CandyArray candies;
 
@@ -72,7 +73,7 @@ public class CandyManager : MonoBehaviour {
 		ShowScore ();
 	}
 
-	private void ShowScore () {
+	public void ShowScore () {
 		scoreText.text = "Score " + score.ToString ();
 	}
 
