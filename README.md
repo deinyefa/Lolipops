@@ -1,4 +1,4 @@
-# Bean Crusher
+# Lolipops
 Candy Crush remake - mobile game
 
 # About 
