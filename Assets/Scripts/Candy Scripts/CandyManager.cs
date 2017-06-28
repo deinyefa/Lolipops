@@ -308,7 +308,7 @@ public class CandyManager : MonoBehaviour {
 		}
 		int timesRun = 1;
 		while (totalMatches.Count() >= GameVariables.MinimumMatches) {
-			IncreaseScore (totalMatches.Count () - 2 * GameVariables.Match3Score);
+			IncreaseScore (Mathf.Abs (totalMatches.Count () - 2 * GameVariables.Match3Score));
 
 			if (timesRun >= 2)
 				IncreaseScore (GameVariables.SubsequelMatchScore);
