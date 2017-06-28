@@ -11,4 +11,8 @@ public class LevelManager : MonoBehaviour {
 	public void LoadMainMenuScene () {
 		SceneManager.LoadScene ("MainMenu");
 	}
+
+	public void LoadTutorialScene () {
+		SceneManager.LoadScene ("HowToPlay");
+	}
 }
