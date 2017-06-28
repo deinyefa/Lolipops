@@ -9,6 +9,6 @@ public class StartScore : MonoBehaviour {
 
 	void Start () {
 		scoreText = GetComponent<Text> ();
-		scoreText.text = LevelManager.instance.score.ToString ();
+		scoreText.text = ScoreHolder.instance.score.ToString ();
 	}
 }
